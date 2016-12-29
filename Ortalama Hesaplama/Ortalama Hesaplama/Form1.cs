@@ -16,5 +16,20 @@ namespace Ortalama_Hesaplama
         {
             InitializeComponent();
         }
+        Form2 form2 = new Form2();
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.Text==" 9. Sınıf")
+            {
+                form2.Show();
+                this.Hide();
+            }
+        }
     }
 }
