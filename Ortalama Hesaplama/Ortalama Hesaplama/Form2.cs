@@ -46,7 +46,7 @@ namespace Ortalama_Hesaplama
 
             MessageBox.Show("Ortalamanız:" + " "+ sonuç2.ToString(), "Ortalama");
 
-            if (textBox1.Text==" " && textBox2.Text==" " && textBox3.Text==" ")
+            if (textBox1.Text=="" && textBox2.Text=="" && textBox3.Text == "" && textBox4.Text == "" && textBox5.Text == "" && textBox6.Text == "" && textBox7.Text == "" && textBox8.Text == "" && textBox9.Text == "" && textBox10.Text == "" && textBox11.Text == "" && textBox12.Text == "" && textBox13.Text == "" && textBox14.Text == "" && textBox15.Text == "")
             {
                 MessageBox.Show("Hiçbir Değer Girmediniz.");
             }
