@@ -120,5 +120,10 @@ namespace Ortalama_Hesaplama
         {
 
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

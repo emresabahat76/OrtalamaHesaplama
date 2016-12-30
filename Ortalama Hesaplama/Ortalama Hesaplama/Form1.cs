@@ -17,7 +17,7 @@ namespace Ortalama_Hesaplama
             InitializeComponent();
         }
         Form2 form2 = new Form2();
-
+        Form3 form3 = new Form3();
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -28,6 +28,10 @@ namespace Ortalama_Hesaplama
             if (comboBox1.Text==" 9. Sınıf")
             {
                 form2.Show();
+                this.Hide();
+            }else if(comboBox1.Text == "10. Sınıf")
+            {
+                form3.Show();
                 this.Hide();
             }
         }
